@@ -18,7 +18,7 @@ namespace object_practice_2016
         private string[] TORI_NAMES = { "スズメ", "カラス", "ハト", "トビ"};
         /** 魚の名前*/
         private string[] SAKANA_NAMES = { "グッピー", "メダカ"};
-
+        
         /**人オブジェクト*/
         private CHito[] hitoObjects;
         public Form1()
@@ -62,7 +62,7 @@ namespace object_practice_2016
             int index = int.Parse(txtIndex.Text);
 
             //人数を表示
-            textBox1.AppendText("人は" + hitoObjects[index].getCount() + "人\r\n");
+            textBox1.AppendText("人は" + CHito.getCount() + "人\r\n");
         }
     }
 }
